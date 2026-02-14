@@ -7,5 +7,5 @@ PhysicsMaterial2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: physics 2d practive
-  friction: 100
-  bounciness: 1.1
+  friction: 600
+  bounciness: 1
