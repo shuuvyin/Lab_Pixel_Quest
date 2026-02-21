@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Scrwipt : MonoBehaviour
 {
+    int var = 3;
     string variableOne = "Hello";
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,14 @@ public class Scrwipt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            transform.position += new Vector3(0, 1, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            transform.position += new Vector3(0, -1, 0);
+
+        }
     }
 }
