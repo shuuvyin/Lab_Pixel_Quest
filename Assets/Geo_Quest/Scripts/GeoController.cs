@@ -42,25 +42,9 @@ public class Scrwipt : MonoBehaviour
         }
 
 
-
-        /*
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            transform.position += new Vector3(0, 1, 0);
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            transform.position += new Vector3(0, -1, 0);
-
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-            transform.position += new Vector3(-1, 0, 0);
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            transform.position += new Vector3(1, 0, 0);
-        }
-        */
+        float xInput = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector3(xInput * speed, rb.velocity.y);
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
