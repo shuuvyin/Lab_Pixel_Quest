@@ -15,7 +15,7 @@ GameObject:
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -138,8 +138,8 @@ Transform:
   m_GameObject: {fileID: 8462168158812703723}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.005, y: 0.0019, z: 0}
+  m_LocalScale: {x: 2.3714583, y: 1.3031639, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 663427076161235266}
@@ -186,7 +186,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5618032, guid: 08feec22993782742a73cc25b3a3bb99, type: 3}
-  m_Color: {r: 0.27735847, g: 0.80833817, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.047002792, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
