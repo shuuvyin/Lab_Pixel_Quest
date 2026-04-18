@@ -12,6 +12,7 @@ public class Scrwipt : MonoBehaviour
     public string nextLevel = "Killbrik2";
     private SpriteRenderer spriteRenderer;
 
+
  
     // Start is called before the first frame update
     void Start()
@@ -60,6 +61,11 @@ public class Scrwipt : MonoBehaviour
             case "Finish":
                 {
                     SceneManager.LoadScene(nextLevel);
+                    break;
+                }
+            case "Coin":
+                {
+                    Destroy(collision.gameObject);
                     break;
                 }
         }
